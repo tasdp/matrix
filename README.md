@@ -4,8 +4,8 @@
 <p align="center">Online open-source workplace for distributed teams.</p>
 
 <p align="center">
-  <a href="https://codeclimate.com/github/ResultadosDigitais/matrix/maintainability"><img src="https://api.codeclimate.com/v1/badges/a41e6e73f69c94d8b9c5/maintainability" /></a>
-  <a href="https://circleci.com/gh/ResultadosDigitais/matrix"><img alt="CircleCI Status" src="https://img.shields.io/circleci/project/github/babel/babel/master.svg?label=CircleCI&maxAge=43200"></a>
+  <a href="https://codeclimate.com/github/tasdp/matrix/maintainability"><img src="https://api.codeclimate.com/v1/badges/a41e6e73f69c94d8b9c5/maintainability" /></a>
+  <a href="https://circleci.com/gh/tasdp/matrix"><img alt="CircleCI Status" src="https://img.shields.io/circleci/project/github/babel/babel/master.svg?label=CircleCI&maxAge=43200"></a>
   <a href="http://hash-matrix.slack.com/"><img alt="chat on Slack" src="https://img.shields.io/badge/Slack-chat%20with%20us-blue?logo=slack"></a>
 </p>
 
@@ -130,7 +130,7 @@ The login is so simple. You only need to configure the Google API credentials fo
 
 If you want run the **#matrix**, you need [docker-compose](https://docs.docker.com/compose/) and follow steps:
 
-1. Clone this repository `git clone git@github.com:ResultadosDigitais/matrix.git`
+1. Clone this repository `git clone git@github.com:tasdp/matrix.git`
 
 2. We are using Google to authorizations, you need create a credential [here](/docs/GOOGLE-CREDENTIAL-STEP-BY-STEP.md) you can follow step by step
 
@@ -152,7 +152,7 @@ If you want run the **#matrix**, you need [docker-compose](https://docs.docker.c
 
 If you prefer, you can run **#matrix** on GCP:
 
-<a href="https://deploy.cloud.run?git_repo=https://github.com/ResultadosDigitais/matrix">
+<a href="https://deploy.cloud.run?git_repo=https://github.com/tasdp/matrix">
 <img alt="Run on Google Cloud" src="https://deploy.cloud.run/button.svg" style="max-width:200px"  />
 </a>
 
@@ -160,7 +160,7 @@ If you prefer, you can run **#matrix** on GCP:
 
 If you prefer, you can run **#matrix** in Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ResultadosDigitais/matrix)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tasdp/matrix)
 
 ### On Kubernetes
 
@@ -199,7 +199,7 @@ If you will run in production we strongly recommend you close your environment u
 | Version | Name | Description | Docs |
 | --- | --- | --- | --- |
 | 2.0.0 | Seraph | New authentication | [Migration guide to 2.0.0](/docs/MIGRATION-TO-V2.md) |
-| 1.1.0 | Morpheus | New layout | [Pull request](https://github.com/ResultadosDigitais/matrix/pull/174) |
+| 1.1.0 | Morpheus | New layout | [Pull request](https://github.com/tasdp/matrix/pull/174) |
 | 1.0.0 | Neo | The one project | - |
 
 
@@ -212,7 +212,7 @@ Some questions come up over and over again. Check here first:
 
 There are several ways to get in touch with us:
 
-* Open an issue at: https://github.com/ResultadosDigitais/matrix/issues
+* Open an issue at: https://github.com/tasdp/matrix/issues
 * See questions on Stackoverflow using tags: https://stackoverflow.com/questions/tagged/hash-matrix
 * Chat with us on: http://hash-matrix.slack.com/ ([Invite here](https://join.slack.com/t/hash-matrix/shared_invite/zt-cwglw6te-kMlJiimq7qn4WeSTiv91og))
 
@@ -226,12 +226,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://juliemar.com.br"><img src="https://avatars0.githubusercontent.com/u/643779?v=4" width="100px;" alt=""/><br /><sub><b>Juliemar Berri</b></sub></a><br /><a href="#blog-juliemar" title="Blogposts">📝</a> <a href="https://github.com/ResultadosDigitais/matrix/commits?author=juliemar" title="Code">💻</a> <a href="#maintenance-juliemar" title="Maintenance">🚧</a> <a href="https://github.com/ResultadosDigitais/matrix/commits?author=juliemar" title="Documentation">📖</a> <a href="#talk-juliemar" title="Talks">📢</a></td>
-    <td align="center"><a href="http://www.brunonardini.com.br"><img src="https://avatars1.githubusercontent.com/u/673904?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Nardini</b></sub></a><br /><a href="https://github.com/ResultadosDigitais/matrix/commits?author=megatroom" title="Code">💻</a> <a href="#maintenance-megatroom" title="Maintenance">🚧</a> <a href="https://github.com/ResultadosDigitais/matrix/commits?author=megatroom" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://alesshh.com"><img src="https://avatars3.githubusercontent.com/u/1260049?v=4" width="100px;" alt=""/><br /><sub><b>Alessandro Tegner</b></sub></a><br /><a href="https://github.com/ResultadosDigitais/matrix/commits?author=alesshh" title="Code">💻</a> <a href="#maintenance-alesshh" title="Maintenance">🚧</a> <a href="#infra-alesshh" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="http://angeliski.com.br"><img src="https://avatars3.githubusercontent.com/u/1574240?v=4" width="100px;" alt=""/><br /><sub><b>Rogerio Angeliski</b></sub></a><br /><a href="https://github.com/ResultadosDigitais/matrix/commits?author=angeliski" title="Code">💻</a> <a href="#maintenance-angeliski" title="Maintenance">🚧</a> <a href="https://github.com/ResultadosDigitais/matrix/commits?author=angeliski" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/diogonicoleti"><img src="https://avatars1.githubusercontent.com/u/4973742?v=4" width="100px;" alt=""/><br /><sub><b>Diogo Nicoleti</b></sub></a><br /><a href="https://github.com/ResultadosDigitais/matrix/commits?author=diogonicoleti" title="Code">💻</a></td>
-    <td align="center"><a href="https://arquivei.com.br"><img src="https://avatars1.githubusercontent.com/u/205890?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo F. Verhaeg</b></sub></a><br /><a href="https://github.com/ResultadosDigitais/matrix/commits?author=Verhaeg" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://juliemar.com.br"><img src="https://avatars0.githubusercontent.com/u/643779?v=4" width="100px;" alt=""/><br /><sub><b>Juliemar Berri</b></sub></a><br /><a href="#blog-juliemar" title="Blogposts">📝</a> <a href="https://github.com/tasdp/matrix/commits?author=juliemar" title="Code">💻</a> <a href="#maintenance-juliemar" title="Maintenance">🚧</a> <a href="https://github.com/tasdp/matrix/commits?author=juliemar" title="Documentation">📖</a> <a href="#talk-juliemar" title="Talks">📢</a></td>
+    <td align="center"><a href="http://www.brunonardini.com.br"><img src="https://avatars1.githubusercontent.com/u/673904?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Nardini</b></sub></a><br /><a href="https://github.com/tasdp/matrix/commits?author=megatroom" title="Code">💻</a> <a href="#maintenance-megatroom" title="Maintenance">🚧</a> <a href="https://github.com/tasdp/matrix/commits?author=megatroom" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://alesshh.com"><img src="https://avatars3.githubusercontent.com/u/1260049?v=4" width="100px;" alt=""/><br /><sub><b>Alessandro Tegner</b></sub></a><br /><a href="https://github.com/tasdp/matrix/commits?author=alesshh" title="Code">💻</a> <a href="#maintenance-alesshh" title="Maintenance">🚧</a> <a href="#infra-alesshh" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="http://angeliski.com.br"><img src="https://avatars3.githubusercontent.com/u/1574240?v=4" width="100px;" alt=""/><br /><sub><b>Rogerio Angeliski</b></sub></a><br /><a href="https://github.com/tasdp/matrix/commits?author=angeliski" title="Code">💻</a> <a href="#maintenance-angeliski" title="Maintenance">🚧</a> <a href="https://github.com/tasdp/matrix/commits?author=angeliski" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/diogonicoleti"><img src="https://avatars1.githubusercontent.com/u/4973742?v=4" width="100px;" alt=""/><br /><sub><b>Diogo Nicoleti</b></sub></a><br /><a href="https://github.com/tasdp/matrix/commits?author=diogonicoleti" title="Code">💻</a></td>
+    <td align="center"><a href="https://arquivei.com.br"><img src="https://avatars1.githubusercontent.com/u/205890?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo F. Verhaeg</b></sub></a><br /><a href="https://github.com/tasdp/matrix/commits?author=Verhaeg" title="Documentation">📖</a></td>
   </tr>
 </table>
 
